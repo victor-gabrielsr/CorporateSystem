@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Único</title>
+    <link rel="stylesheet" href="assets/vendor/bootstrap.min.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Sistema de Cadastro Único</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Vendas</a></li>
+                    <li><a href="#">Estoque</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Cadastros <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Clientes</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Produtos</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Fornecedores</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Relatórios <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Vendas</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Financeiro</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Logado como:</a></li>
+                    <li><a href="#">Sair</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title text-center" id="myModalLabel">Cadastro de Clientes</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form action="#" class="form-horizontal">
+                            <fieldset>
+                                <legend>Dados Pessoais</legend>
+                                <div class="form-group">
+                                    <label for="Idclientes" class="col-sm-2 control-label">ID Cliente</label>
+                                    <div class="col-sm-4">
+                                        <input type="text" class="form-control-red form-control" id="Idclientes" readonly>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="Documento" class="col-sm-2 control-label">Documento</label>
+                                    <div class="col-sm-4">
+                                        <input type="text" class="form-control" id="Documento">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="Nome" class="col-sm-2 control-label">Nome</label>
+                                    <div class="col-sm-4">
+                                        <input type="text" class="form-control" id="Nome">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">Sexo</label>
+                                    <div class="col-sm-4">
+                                        <label class="radio-inline">
+                                            <input type="radio" name="Sexo" id="Masculino" value="M"> Masculino
+                                        </label>
+                                        <label class="radio-inline">
+                                            <input type="radio" name="Sexo" id="Feminino" value="F"> Feminino
+                                        </label>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <fieldset>
+                                <legend>Contato</legend>
+                                <div class="form-group">
+                                    <label for="email" class="col-sm-2 control-label">Email</label>
+                                    <div class="col-sm-4">
+                                        <input type="email" class="form-control" id="email">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="telefone" class="col-sm-2 control-label">Telefone</label>
+                                    <div class="col-sm-4">
+                                        <input type="text" class="form-control" id="telefone">
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <fieldset>
+                                <legend>Localização</legend>
+                                <div class="form-group">
+                                    <label for="uf" class="col-sm-2 control-label">UF</label>
+                                    <div class="col-sm-4">
+                                        <select class="form-control" id="uf">
+                                            <option value="">Selecione</option>
+                                            <option value="AC">Acre</option>
+                                            <option value="AL">Alagoas</option>
+                                            <option value="AP">Amapá</option>
+                                            <option value="AM">Amazonas</option>
+                                            <option value="BA">Bahia</option>
+                                            <option value="CE">Ceará</option>
+                                            <option value="DF">Distrito Federal</option>
+                                            <option value="ES">Espírito Santo</option>
+                                            <option value="GO">Goiás</option>
+                                            <option value="MA">Maranhão</option>
+                                            <option value="MT">Mato Grosso</option>
+                                            <option value="MS">Mato Grosso do Sul</option>
+                                            <option value="MG">Minas Gerais</option>
+                                            <option value="PA">Pará</option>
+                                            <option value="PB">Paraíba</option>
+                                            <option value="PR">Paraná</option>
+                                            <option value="PE">Pernambuco</option>
+                                            <option value="PI">Piauí</option>
+                                            <option value="RJ">Rio de Janeiro</option>
+                                            <option value="RN">Rio Grande do Norte</option>
+                                            <option value="RS">Rio Grande do Sul</option>
+                                            <option value="RO">Rondônia</option>
+                                            <option value="RR">Roraima</option>
+                                            <option value="SC">Santa Catarina</option>
+                                            <option value="SP">São Paulo</option>
+                                            <option value="SE">Sergipe</option>
+                                            <option value="TO">Tocantins</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-4">
+                                    <button type="button" class="btn btn-primary" onclick="SalvarCadastro();">
+                                        <span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span> Gravar
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title text-center">CLIENTES CADASTRADOS</h3>
+            </div>
+            <div class="panel-body">
+                <a id="btnNovo" class="btn btn-primary">
+                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Novo
+                </a>
+                <div class="table-responsive">
+                    <table id="ListaCadastro" class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th>Id Cliente</th>
+                                <th>Documento</th>
+                                <th>Nome</th>
+                                <th>Email</th>
+                                <th>Telefone</th>
+                                <th>Ações</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+                <nav class="text-center">
+                    <ul class="pagination">
+                        <li>
+                            <a href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                            </a>
+                        </li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li>
+                            <a href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <script src="assets/vendor/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

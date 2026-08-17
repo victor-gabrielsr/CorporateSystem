@@ -1,0 +1,76 @@
+[
+  {
+    "ContainingType": "CadastroClientes.Controllers.ClientesController",
+    "Method": "Alterar",
+    "RelativePath": "api/Clientes/Alterar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cliente",
+        "Type": "CadastroClientes.Models.Clientes",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CadastroClientes.Controllers.ClientesController",
+    "Method": "Deletar",
+    "RelativePath": "api/Clientes/Deletar",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Idclientes",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CadastroClientes.Controllers.ClientesController",
+    "Method": "GetCliente",
+    "RelativePath": "api/Clientes/GetClient",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Idclientes",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CadastroClientes.Controllers.ClientesController",
+    "Method": "Listar",
+    "RelativePath": "api/Clientes/Listar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CadastroClientes.Controllers.ClientesController",
+    "Method": "Salvar",
+    "RelativePath": "api/Clientes/Salvar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cliente",
+        "Type": "CadastroClientes.Models.Clientes",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

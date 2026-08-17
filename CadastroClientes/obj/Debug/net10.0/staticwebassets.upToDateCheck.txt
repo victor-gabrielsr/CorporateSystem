@@ -1,0 +1,15 @@
+wwwroot\assets\fonts\glyphicons-halflings-regular.eot
+wwwroot\assets\fonts\glyphicons-halflings-regular.svg
+wwwroot\assets\fonts\glyphicons-halflings-regular.ttf
+wwwroot\assets\fonts\glyphicons-halflings-regular.woff
+wwwroot\assets\js\app.js
+wwwroot\assets\vendor\bootstrap.min.js
+wwwroot\assets\vendor\jquery.min.js
+wwwroot\assets\vendor\bootstrap.min.css
+wwwroot\index.html
+C:\Users\Victor\OneDrive\Documentos\CursoRafael\CorporateSystem\CadastroClientes\wwwroot\assets\fonts\glyphicons-halflings-regular.svg
+C:\Users\Victor\OneDrive\Documentos\CursoRafael\CorporateSystem\CadastroClientes\wwwroot\assets\js\app.js
+C:\Users\Victor\OneDrive\Documentos\CursoRafael\CorporateSystem\CadastroClientes\wwwroot\assets\vendor\bootstrap.min.js
+C:\Users\Victor\OneDrive\Documentos\CursoRafael\CorporateSystem\CadastroClientes\wwwroot\assets\vendor\jquery.min.js
+C:\Users\Victor\OneDrive\Documentos\CursoRafael\CorporateSystem\CadastroClientes\wwwroot\assets\vendor\bootstrap.min.css
+C:\Users\Victor\OneDrive\Documentos\CursoRafael\CorporateSystem\CadastroClientes\wwwroot\index.html
